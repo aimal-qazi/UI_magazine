@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 40px 5.5%;
+}
+.container .back-btn {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+  width: fit-content;
+}
+.container .back-btn p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(43, 42, 111, 1);
+}
+.container .detail {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .detail .offer h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.container .detail .offer .include {
+  display: flex;
+  gap: 1rem;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.container .detail .price .fixed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .detail .price .fixed h1 {
+  margin-left: 100px;
+  font-weight: 400;
+  color: rgba(43, 42, 111, 1);
+}
+.container .detail .price .fixed p {
+  font-size: 20px;
+}
+.container .detail .price .monthly {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .detail .price .monthly h1 {
+  margin-left: 100px;
+  font-weight: 400;
+  color: rgba(43, 42, 111, 1);
+}
+.container .detail .price .monthly p {
+  font-size: 20px;
+}
+.container .detail .detail-btn {
+  width: 100%;
+  margin-top: 40px;
+}
+.container .detail .detail-btn button {
+  width: 100%;
+  padding: 13px 0;
+  background: rgba(43, 42, 111, 1);
+  font-size: 16px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+@media (max-width: 750px) {
+  .container .detail {
+    flex-direction: column;
+  }
+  .container .detail .price {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .container .detail .price .monthly h1 {
+    margin-left: 60px;
+  }
+  .container .detail .price .fixed h1 {
+    margin-left: 60px;
+  }
+}
+
+/* Magazines CSS */
+
+.magazine {
+  margin-top: 115px;
+  padding: 0 5.5%;
+}
+.magazine .list {
+  margin-top: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.magazine .list .box {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 90px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  height: 536px;
+  max-width: 278px;
+  min-width: 250px;
+}
+.magazine .list .box .img {
+  max-width: 278px;
+  min-width: 250px;
+  height: 421px;
+}
+.magazine .list .box .img img {
+  width: 100%;
+  height: 100%;
+}
+.magazine .list .box .detail {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.magazine .list .box .detail p {
+  font-size: 16px;
+}
+.magazine .list .box .detail button {
+  padding: 10px 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background: transparent;
+  border: 1px solid rgba(43, 42, 111, 1);
+  color: rgba(43, 42, 111, 1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.magazine .list .box .detail button:hover {
+  background: rgba(43, 42, 111, 1);
+  color: #fff;
+}
+@media (max-width: 1200px) {
+  .magazine .list {
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+}
+@media (max-width: 960px) {
+  .magazine .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .magazine .list {
+    grid-template-columns: 1fr;
+  }
+}

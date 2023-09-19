@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar HTML -->
+
+    <div class="navbar">
+      <div class="top-nav">
+        <img
+          style="cursor: pointer"
+          class="logo"
+          src="../images/logo.png"
+          alt=""
+        />
+        <div class="btns">
+          <button class="btn-hover">LOGIN</button>
+          <button class="btn-unhover">SIGN UP</button>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="humburger" id="hum">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="links" id="hum-box">
+          <ul>
+            <li><a class="with-hover" href="#">HOME</a></li>
+            <li class="drop-down">
+              <select>
+                <option value="" selected>Select Category</option>
+              </select>
+
+              <!-- <a href="#" class="drop-down"
+                >CATEGORIES
+                </a> -->
+            </li>
+            <li><a class="with-hover" href="#">MAGAZINES</a></li>
+            <li><a class="with-hover" href="#">HOW IT WORKS</a></li>
+            <li><a class="with-hover" href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <div class="img">
+            <img id="search-btn" src="../images/search.png" alt="" />
+          </div>
+        </div>
+        <div class="search-bar" id="searchBar">
+          <div class="wrapper">
+            <img src="../images/search-bar.png" alt="" />
+            <input type="text" value="Maestro" placeholder="Enter name" />
+            <img src="../images/cancel-bar.png" id="cancelBar" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero HTML -->
+
+    <div class="hero">
+      <div class="hero-txt">
+        <h1 class="main-heading">
+          <span style="color: rgba(251, 206, 44, 1)">Magazines</span> ignite
+          curiosity and creativity
+        </h1>
+        <p>
+          Magazines transport readers to new worlds, providing insights,
+          stories, and inspiration across a vast spectrum of topics
+        </p>
+        <button>JOIN US <img src="../images/arrow-right.png" alt="" /></button>
+      </div>
+    </div>
+
+    <!-- Categories HTML -->
+
+    <div class="category">
+      <div class="title">
+        <h2>TOP CATEGORIES</h2>
+      </div>
+      <div class="list">
+        <div class="box"><p>Homes</p></div>
+        <div class="box"><p>Health</p></div>
+        <div class="box"><p>Beauty</p></div>
+        <div class="box"><p>Women</p></div>
+      </div>
+    </div>
+
+    <!-- Magazines HTML -->
+
+    <div class="magazine">
+      <div class="title">
+        <h2>TOP MAGAZINES</h2>
+      </div>
+      <div class="list">
+        <div class="box">
+          <div class="img">
+            <img src="../images/mg-1.png" alt="" />
+          </div>
+          <div class="detail">
+            <p>Maestro</p>
+            <button>Detail</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="../images/mg-2.png" alt="" />
+          </div>
+          <div class="detail">
+            <p>Basketball</p>
+            <button>Detail</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="../images/mg-3.png" alt="" />
+          </div>
+          <div class="detail">
+            <p>Future</p>
+            <button>Detail</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="../images/mg-4.png" alt="" />
+          </div>
+          <div class="detail">
+            <p>Career</p>
+            <button>Detail</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="../images/mg-5.png" alt="" />
+          </div>
+          <div class="detail">
+            <p>Maestro</p>
+            <button>Detail</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="../images/mg-6.png" alt="" />
+          </div>
+          <div class="detail">
+            <p>Basketball</p>
+            <button>Detail</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="../images/mg-7.png" alt="" />
+          </div>
+          <div class="detail">
+            <p>Future</p>
+            <button>Detail</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="../images/mg-1.png" alt="" />
+          </div>
+          <div class="detail">
+            <p>Career</p>
+            <button>Detail</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Packages HTML -->
+
+    <div class="package">
+      <div class="title">
+        <h2>BEST PACKAGES</h2>
+      </div>
+      <div class="list">
+        <div class="box">
+          <div class="box-main">
+            <p>Premium Offer</p>
+            <h1>$3000</h1>
+          </div>
+          <div class="lists">
+            <p>Subscription Period</p>
+            <p>1 year</p>
+          </div>
+          <div class="lists">
+            <p>Magazines Included</p>
+            <p>15</p>
+          </div>
+          <button>Subscribe</button>
+        </div>
+        <div class="lg-box">
+          <div class="box-main">
+            <p>Best Offer</p>
+            <h1>$4500</h1>
+          </div>
+          <div class="lists">
+            <p>Subscription Period</p>
+            <p>1 year</p>
+          </div>
+          <div class="lists">
+            <p>Magazines Included</p>
+            <p>15</p>
+          </div>
+          <button>Subscribe</button>
+        </div>
+        <div class="box">
+          <div class="box-main">
+            <p>Basic Offer</p>
+            <h1>$2500</h1>
+          </div>
+          <div class="lists">
+            <p>Subscription Period</p>
+            <p>1 year</p>
+          </div>
+          <div class="lists">
+            <p>Magazines Included</p>
+            <p>08</p>
+          </div>
+          <button>Subscribe</button>
+        </div>
+      </div>
+
+      <!-- <div class="package-carousal">
+        <div class="btns">
+          <span></span>
+          <span></span>
+          <span>
+            <div class="active"></div>
+          </span>
+          <span></span>
+          <span></span>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- Footer HTML -->
+
+    <footer>
+      <div class="col c1">
+        <div class="c1-image">
+          <img style="cursor: pointer" src="../images/logo.png" alt="" />
+        </div>
+        <p>
+          Magazines transport readers to new worlds, providing insights,
+          stories, and inspiration across a vast spectrum of topics
+        </p>
+      </div>
+      <div class="col c2">
+        <h2>Useful links</h2>
+        <p>Browse magazines</p>
+        <p>Browse packages</p>
+        <p>Signup</p>
+        <p>How it works</p>
+        <p>FAQ</p>
+      </div>
+      <div class="col c3">
+        <h2>Contact Us</h2>
+        <div class="box">
+          <div class="icon">
+            <img src="../images/f-1.png" alt="" />
+          </div>
+          <div class="desc">
+            <p>
+              123 Imaginary Street, Fictitiousville, Makebelieve County,
+              Dreamland 45678
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <img src="../images/f-2.png" alt="" />
+          </div>
+          <div class="desc">
+            <p>
+              (555) 123-4567 <br />
+              (555) 987-6543
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <img src="../images/f-3.png" alt="" />
+          </div>
+          <div class="desc">
+            <p>yourmail123@example.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="col c4">
+        <h2>Join Us</h2>
+        <p>
+          Embark on an exciting journey with us! Explore innovation, community,
+          and growth. Join now to be a part of something amazing
+        </p>
+        <div class="links">
+          <div class="box">
+            <img src="../images/facebook.png" alt="" />
+          </div>
+          <div class="box">
+            <img src="../images/linked-in.png" alt="" />
+          </div>
+          <div class="box">
+            <img src="../images/twitter.png" alt="" />
+          </div>
+          <div class="box">
+            <img src="../images/google.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>
