@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="top-nav">
+        <img
+          style="cursor: pointer"
+          class="logo"
+          src="../images/logo.png"
+          alt=""
+        />
+        <div class="btns">
+          <button class="btn-hover">LOGIN</button>
+          <button class="btn-unhover">SIGN UP</button>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="humburger" id="hum">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="links" id="hum-box">
+          <ul>
+            <li><a class="with-hover" href="#">HOME</a></li>
+            <li class="drop-down">
+              <select>
+                <option value="" selected>Select Category</option>
+              </select>
+
+              <!-- <a href="#" class="drop-down"
+                  >CATEGORIES
+                  </a> -->
+            </li>
+            <li><a class="with-hover" href="#">MAGAZINES</a></li>
+            <li><a class="with-hover" href="#">HOW IT WORKS</a></li>
+            <li><a class="with-hover" href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <div class="img">
+            <img id="search-btn" src="../images/search.png" alt="" />
+          </div>
+        </div>
+        <div class="search-bar" id="searchBar">
+          <div class="wrapper">
+            <img src="../images/search-bar.png" alt="" />
+            <input type="text" value="Maestro" placeholder="Enter name" />
+            <img src="../images/cancel-bar.png" id="cancelBar" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../script.js"></script>
+  </body>
+</html>

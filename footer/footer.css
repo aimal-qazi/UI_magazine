@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+/* Footer CSS */
+
+footer {
+  margin-top: 100px;
+  width: 100%;
+  padding: 80px 5.5%;
+  background: rgba(236, 237, 239, 1);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
+footer .c1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .c1 .c1-image {
+  display: flex;
+  justify-content: center;
+}
+
+footer .c1 p {
+  margin-top: 10px;
+  color: #7c7d78;
+}
+
+footer .c4 .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+footer .c4 .links .box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(43, 42, 111, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+footer .c2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 34px;
+  padding-left: 40px;
+}
+
+footer .c2 h2 {
+  margin-bottom: 10px;
+}
+
+footer .c2 p {
+  cursor: pointer;
+  color: #7c7d78;
+}
+
+footer .c3 {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .c3 h2 {
+  margin-bottom: 10px;
+}
+
+footer .c3 .box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+  color: #7c7d78;
+}
+
+footer .c4 {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .c4 h2 {
+  margin-bottom: 10px;
+}
+
+footer .c4 p {
+  color: #7c7d78;
+}
+
+footer .c4 .inp {
+  display: flex;
+  margin-top: 15px;
+}
+
+footer .c4 .inp input {
+  padding: 10px 15px 10px 15px;
+  background: transparent;
+  border: 1px solid #4e4e4c;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+footer .c4 .inp button {
+  padding: 0 20px;
+  border: 0;
+  background: #264796;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+@media (max-width: 1270px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 860px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 570px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  footer .c2 {
+    padding-left: 0;
+  }
+}
+
+/* For 4k Resolution */
+
+@media (min-width: 1386px) {
+  .product .pro-list .box img {
+    width: 100%;
+  }
+}
