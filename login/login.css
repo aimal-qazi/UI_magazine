@@ -10,8 +10,8 @@
 
 .container {
   width: 100%;
-  height: 100vh;
-  overflow-y: hidden;
+  height: 619px;
+  overflow-y: hidden !important;
 }
 .container .wrapper {
   width: 100%;
@@ -19,7 +19,7 @@
 }
 .container .wrapper .image {
   width: 50%;
-  height: 100vh;
+  height: 619px;
 }
 .container .wrapper .image img {
   width: 100%;
@@ -93,13 +93,14 @@
 @media (max-width: 750px) {
   .container {
     overflow-y: scroll;
+    height: 1000px;
   }
   .container .wrapper {
     flex-direction: column-reverse;
   }
   .container .wrapper .image {
     width: 100%;
-    height: 80vh;
+    height: 600px;
   }
   .container .wrapper .image img {
     width: 100%;
