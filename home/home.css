@@ -447,6 +447,11 @@
     grid-template-columns: 1fr;
   }
 }
+@media (min-width: 1333px) and (max-width: 2660px) {
+  .magazine .list {
+    justify-items: center;
+  }
+}
 
 /* Packages CSS */
 
@@ -490,6 +495,11 @@
   cursor: pointer;
   background: transparent;
   border: 1px solid #333;
+  transition: 0.3s;
+}
+.package .list .box button:hover {
+  background: rgba(43, 42, 111, 1);
+  color: #fff;
 }
 .package .list .box-main {
   text-align: center;
@@ -526,6 +536,11 @@
   background: transparent;
   border: 1px solid #ccc;
   color: #ccc;
+  transition: 0.3s;
+}
+.package .list .lg-box button:hover {
+  background: #fff;
+  color: #000;
 }
 .package .list .lg-box .box-main {
   text-align: center;
@@ -611,6 +626,11 @@
   .package .list .box,
   .package .list .lg-box {
     width: 100%;
+  }
+}
+@media (min-width: 1370px) and (max-width: 2660px) {
+  .package .list {
+    justify-items: center;
   }
 }
 

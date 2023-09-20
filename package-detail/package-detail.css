@@ -166,3 +166,8 @@
     grid-template-columns: 1fr;
   }
 }
+@media (min-width: 1333px) and (max-width: 2660px) {
+  .magazine .list {
+    justify-items: center;
+  }
+}

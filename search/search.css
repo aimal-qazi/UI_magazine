@@ -434,6 +434,11 @@
     max-width: 100%;
   }
 }
+@media (min-width: 1333px) and (max-width: 2660px) {
+  .magazine .list {
+    justify-items: center;
+  }
+}
 
 /* Footer CSS */
 
