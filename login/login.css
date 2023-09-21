@@ -125,3 +125,15 @@
     width: 100%;
   }
 }
+@media (min-width: 1440px) and (max-width: 2660px) {
+  .container {
+    min-height: 1000px;
+  }
+  .container .wrapper .image {
+    min-height: 1000px;
+    height: 100%;
+  }
+  .container .wrapper .form form {
+    margin-top: 220px;
+  }
+}
